@@ -7,7 +7,7 @@ install:
   - dconf-editor
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-gsconnect
-  - gnome-shell-extension-user-themes
+  - gnome-shell-extension-user-theme
   - gnome-tweaks
   - nautilus-gsconnect
   - nautilus-open-any-terminal
