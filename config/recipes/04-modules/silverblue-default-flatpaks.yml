@@ -1,25 +1,25 @@
 type: default-flatpaks
 notify: true
-  user:
-    repo-name: flathub
-    repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-    install:
-      - ca.desrt.dconf-editor
-      - com.brave.Browser
-      - com.github.tchx84.Flatseal
-      - com.mattjakeman.ExtensionManager
-      - com.valvesoftware.Steam
-      - de.haeckerfelix.Fragments
-      - eu.betterbird.Betterbird
-      - io.github.Foldex.AdwSteamGtk
-      - io.github.Qalculate
-      - io.github.celluloid_player.Celluloid
-      - io.podman_desktop.PodmanDesktop
-      - org.bleachbit.BleachBit
-      - org.fedoraproject.MediaWriter
-      - org.gnome.Evince
-      - org.gnome.Loupe
-      - org.gtk.Gtk3theme.adw-gtk3
-      - org.gtk.Gtk3theme.adw-gtk3-dark
-      - org.onlyoffice.desktopeditors
-      - page.codeberg.libre_menu_editor.LibreMenuEditor
+user:
+  repo-name: flathub
+  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+  install:
+    - ca.desrt.dconf-editor
+    - com.brave.Browser
+    - com.github.tchx84.Flatseal
+    - com.mattjakeman.ExtensionManager
+    - com.valvesoftware.Steam
+    - de.haeckerfelix.Fragments
+    - eu.betterbird.Betterbird
+    - io.github.Foldex.AdwSteamGtk
+    - io.github.Qalculate
+    - io.github.celluloid_player.Celluloid
+    - io.podman_desktop.PodmanDesktop
+    - org.bleachbit.BleachBit
+    - org.fedoraproject.MediaWriter
+    - org.gnome.Evince
+    - org.gnome.Loupe
+    - org.gtk.Gtk3theme.adw-gtk3
+    - org.gtk.Gtk3theme.adw-gtk3-dark
+    - org.onlyoffice.desktopeditors
+    - page.codeberg.libre_menu_editor.LibreMenuEditor
