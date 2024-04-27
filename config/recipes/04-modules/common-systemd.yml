@@ -1,0 +1,13 @@
+type: systemd
+system:
+  disabled:
+    - systemd-oomd.service
+  enabled:
+    - libvirtd.service
+    - libvirtd.socket
+  masked:
+    - systemd-oomd.service
+user:
+  enabled:
+    - podman.service
+    - podman.socket
