@@ -3,6 +3,7 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
 install:
   - btop
+  - edk2-ovmf
   - genisoimage
   - gtk4
   - libvirt
@@ -25,7 +26,6 @@ install:
   - vte291
 remove:
   - default-editor
-  - edk2-ovmf
   - firefox
   - firefox-langpacks
   - htop
