@@ -20,6 +20,7 @@ user:
     - org.fedoraproject.MediaWriter
     - org.gnome.baobab
     - org.gnome.Evince
+    - org.gnome.Logs
     - org.gnome.Loupe
     - org.gnome.TextEditor
     - org.gtk.Gtk3theme.adw-gtk3
