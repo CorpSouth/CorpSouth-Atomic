@@ -10,6 +10,7 @@ modules:
   - from-file: recipes/04-modules/silverblue-default-flatpaks.yml
   - from-file: recipes/04-modules/common-bling.yml
   - from-file: recipes/04-modules/silverblue-bling.yml
+  - from-file: recipes/04-modules/silverblue-gnome-extensions.yml
   - from-file: recipes/04-modules/common-fonts.yml
   - from-file: recipes/04-modules/silverblue-fonts.yml
   - from-file: recipes/04-modules/common-systemd.yml

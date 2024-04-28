@@ -12,13 +12,13 @@ user:
     - de.haeckerfelix.Fragments
     - eu.betterbird.Betterbird
     - io.github.Foldex.AdwSteamGtk
-    - io.github.Qalculate
     - io.github.celluloid_player.Celluloid
     - io.missioncenter.MissionCenter
     - io.podman_desktop.PodmanDesktop
     - org.bleachbit.BleachBit
     - org.fedoraproject.MediaWriter
     - org.gnome.baobab
+    - org.gnome.Calculator
     - org.gnome.Evince
     - org.gnome.Logs
     - org.gnome.Loupe
