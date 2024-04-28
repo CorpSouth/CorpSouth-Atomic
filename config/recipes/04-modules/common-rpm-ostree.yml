@@ -2,6 +2,7 @@ type: rpm-ostree
 install:
   - btop
   - edk2-ovmf
+  - fastfetch
   - genisoimage
   - libvirt
   - libxcrypt-compat
