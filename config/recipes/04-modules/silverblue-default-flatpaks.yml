@@ -18,8 +18,10 @@ user:
     - io.podman_desktop.PodmanDesktop
     - org.bleachbit.BleachBit
     - org.fedoraproject.MediaWriter
+    - org.gnome.baobab
     - org.gnome.Evince
     - org.gnome.Loupe
+    - org.gnome.TextEditor
     - org.gtk.Gtk3theme.adw-gtk3
     - org.gtk.Gtk3theme.adw-gtk3-dark
     - org.onlyoffice.desktopeditors
