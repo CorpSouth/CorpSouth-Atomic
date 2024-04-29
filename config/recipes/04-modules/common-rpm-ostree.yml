@@ -1,6 +1,7 @@
 type: rpm-ostree
 install:
   - libxcrypt-compat
+  - openssh-askpass
   - openssl
 remove:
   - default-editor
