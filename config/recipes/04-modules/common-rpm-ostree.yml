@@ -4,9 +4,13 @@ install:
   - libxcrypt-compat
   - openssl
 remove:
+  - default editor
+  - fedora-flathub-remote
   - firefox
   - firefox-langpacks
   - htop
+  - nano
+  - nano-default-editor
   - nvtop
   - vim-common
   - vim-data
