@@ -1,25 +1,12 @@
 type: rpm-ostree
 install:
-  - btop
-  - edk2-ovmf
   - fastfetch
-  - genisoimage
-  - libvirt
   - libxcrypt-compat
-  - neovim
   - openssl
-  - playerctl
-  - qemu
-  - trash-cli
-  - virt-manager
-  - virt-viewer
 remove:
-  - default-editor
   - firefox
   - firefox-langpacks
   - htop
-  - nano
-  - nano-default-editor
   - nvtop
   - vim-common
   - vim-data
