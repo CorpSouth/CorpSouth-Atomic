@@ -13,6 +13,5 @@ remove:
   - kmousetool
   - krfb
   - krfb-libs
-  - kwallet
   - kwrite
   - plasma-welcome
