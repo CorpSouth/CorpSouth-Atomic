@@ -9,11 +9,10 @@ remove:
   - kate-plugins
   - kate-krunner-plugin
   - kcharselect
-  - kf6-wallet
-  - kf6-wallet-libs
   - kfind
   - kmousetool
   - krfb
   - krfb-libs
+  - kwalletmanager5
   - kwrite
   - plasma-welcome
