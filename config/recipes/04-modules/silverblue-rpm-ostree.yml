@@ -13,6 +13,7 @@ install:
   - nautilus-gsconnect
   - nautilus-open-any-terminal
   - nautilus-python
+  - zenity
 remove:
   - gnome-classic-session
   - gnome-classic-session-xsession
