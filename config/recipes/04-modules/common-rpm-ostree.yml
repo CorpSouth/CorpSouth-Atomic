@@ -3,6 +3,7 @@ install:
   - libxcrypt-compat
   - openssh-askpass
   - openssl
+  - steam-devices
 remove:
   - default-editor
   - fedora-flathub-remote
