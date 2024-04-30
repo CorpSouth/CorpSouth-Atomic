@@ -1,0 +1,15 @@
+name: corpsouth-kinoite-main
+description: CorpSouth's Opinionated Atomic Kinoite Desktop. Built with Blue-Build.
+base-image: ghcr.io/ublue-os/kinoite-main
+image-version: latest
+modules:
+  - from-file: recipes/04-modules/common-files.yml
+  - from-file: recipes/04-modules/kinoite-files.yml
+  - from-file: recipes/04-modules/common-rpm-ostree.yml
+  - from-file: recipes/04-modules/kinoite-rpm-ostree.yml
+  - from-file: recipes/04-modules/kinoite-default-flatpaks.yml
+  - from-file: recipes/04-modules/common-bling.yml
+  - from-file: recipes/04-modules/common-fonts.yml
+  - from-file: recipes/04-modules/kinoite-fonts.yml
+  - from-file: recipes/04-modules/common-systemd.yml
+  - from-file: recipes/04-modules/common-signing.yml

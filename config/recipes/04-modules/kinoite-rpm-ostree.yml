@@ -1,0 +1,18 @@
+type: rpm-ostree
+install:
+  - kdialog
+remove:
+  - ark
+  - ark-libs
+  - filelight
+  - kate
+  - kate-plugins
+  - kate-krunner-plugin
+  - kcharselect
+  - kfind
+  - kmousetool
+  - krfb
+  - krfb-libs
+  - kwallet
+  - kwrite
+  - plasma-welcome
