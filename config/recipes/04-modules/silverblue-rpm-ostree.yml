@@ -5,7 +5,9 @@ repos:
 install:
   - adw-gtk3-theme
   - gnome-console # Executable binary is "/usr/bin/kgx"
+  - gnome-shell-extension-appindicator
   - gnome-shell-extension-gsconnect
+  - gnome-shell-extension-user-theme
   - gnome-tweaks
   - morewaita-icon-theme
   - nautilus-gsconnect
