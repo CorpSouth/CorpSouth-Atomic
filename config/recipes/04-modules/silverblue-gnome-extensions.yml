@@ -1,5 +1,4 @@
 type: gnome-extensions
 install:
   - appindicatorsupportrgcjonas.gmail.com.v58
-  - gsconnectandyholmes.github.io.v57
   - user-themegnome-shell-extensions.gcampax.github.com.v57
