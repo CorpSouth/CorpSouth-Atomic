@@ -9,6 +9,7 @@ remove:
   - kate-plugins
   - kate-krunner-plugin
   - kcharselect
+  - kdeplasma-addons
   - kfind
   - kmousetool
   - krfb
