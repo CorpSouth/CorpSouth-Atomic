@@ -5,13 +5,10 @@ install:
   - openssl
   - steam-devices
 remove:
-  - default-editor
   - fedora-flathub-remote
   - firefox
   - firefox-langpacks
   - htop
-  - nano
-  - nano-default-editor
   - nvtop
   - toolbox
   - vim-common
