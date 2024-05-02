@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Asphalt</name>
+        <filename>/usr/share/backgrounds/corpsouth-atomic/default/asphalt-day.jpg</filename>
+        <filename-dark>/usr/share/backgrounds/corpsouth-atomic/default/asphalt-night.jpg</filename-dark>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Asphalt Time of Day</name>
+        <filename>/usr/share/backgrounds/corpsouth-atomic/default/f40.xml</filename>
+        <options>stretched</options>
+    </wallpaper>
+</wallpapers>
