@@ -1,8 +1,4 @@
 [org.gnome.desktop.interface]
-clock-format = '12h'
-clock-show-date = 'true'
-clock-show-seconds = 'true'
-clock-show-weekday = 'true'
 color-scheme = 'prefer-dark'
 document-font-name = 'Cantarell 10'
 font-antialiasing = 'rgba'
@@ -21,7 +17,7 @@ allow-volume-above-100-percent = 'true'
 button-layout = 'appmenu:minimize,maximize,close'
 
 [org.gnome.mutter]
-center-new-windows = true
+center-new-windows = 'true'
 
 [org.gnome.shell]
 enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'gsconnect@andyholmes.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com']
