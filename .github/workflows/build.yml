@@ -24,8 +24,8 @@ jobs:
           # !! Add your recipes here
           
           # Desktop-Main 
-          - recipes/desktop/main/corpsouth-kinoite-main.yml
-          - recipes/desktop/main/corpsouth-silverblue-main.yml
+          - desktop/main/corpsouth-kinoite-main.yml
+          - desktop/main/corpsouth-silverblue-main.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
