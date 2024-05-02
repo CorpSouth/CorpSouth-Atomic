@@ -1,0 +1,29 @@
+[org.gnome.desktop.background]
+picture-options 'stretched'
+picture-uri 'file:///usr/share/backgrounds/f40/default/f40.xml'
+picture-uri-dark 'file:///usr/share/backgrounds/f40/default/f40.xml'
+
+[org.gnome.desktop.interface]
+clock-format '12h'
+clock-show-date true
+clock-show-seconds true
+clock-show-weekday true
+color-scheme 'prefer-dark'
+document-font-name 'Cantarell 10'
+font-antialiasing 'rgba'
+font-name 'Cantarell 10'
+gtk-theme 'adw-gtk3'
+icon-theme 'MoreWaita'
+monospace-font-name 'SauceCodePro Nerd Font Propo 10'
+
+[org.gnome.desktop.sound]
+allow-volume-above-100-percent true
+
+[org.gnome.desktop.wm.preferences]
+button-layout 'appmenu:minimize,maximize,close'
+
+[org.gnome.mutter]
+center-new-windows true
+
+[org.gnome.shell]
+enabled-extensions ['appindicatorsupport@rgcjonas.gmail.com', 'gsconnect@andyholmes.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com']

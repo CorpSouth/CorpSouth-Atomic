@@ -1,7 +1,7 @@
-name: corpsouth-silverblue-main
-description: CorpSouth's Opinionated Atomic Silverblue Desktop. Built with Blue-Build.
+name: corpsouth-silverblue-main-gts
+description: CorpSouth's Opinionated Atomic Silverblue Desktop, Grand Touring Series. Built with Blue-Build.
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest
+image-version: gts
 modules:
   - from-file: modules/common-files.yml
   - from-file: modules/silverblue-files.yml
