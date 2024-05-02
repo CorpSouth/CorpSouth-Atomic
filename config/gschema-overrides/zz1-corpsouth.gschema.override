@@ -1,5 +1,4 @@
 [org.gnome.desktop.interface]
-org.gnome.desktop.interface clock-format='12h'
 org.gnome.desktop.interface clock-show-date='true'
 org.gnome.desktop.interface clock-show-seconds='true'
 org.gnome.desktop.interface clock-show-weekday='true'
@@ -10,9 +9,6 @@ font-name='Cantarell 10'
 gtk-theme='adw-gtk3'
 icon-theme='MoreWaita'
 monospace-font-name='SauceCodePro Nerd Font Propo 10'
-
-[org.gnome.desktop.interface:GNOME-Greeter]
-font-name='Cantarell 10'
 
 [org.gnome.desktop.sound]
 allow-volume-above-100-percent='true'
