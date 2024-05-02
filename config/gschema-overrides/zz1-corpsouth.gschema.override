@@ -1,7 +1,3 @@
-[org.gnome.desktop.background]
-picture-uri 'file:///usr/share/backgrounds/f40/default/f40.xml'
-picture-uri-dark 'file:///usr/share/backgrounds/f40/default/f40.xml'
-
 [org.gnome.desktop.interface]
 clock-format '12h'
 clock-show-date true
