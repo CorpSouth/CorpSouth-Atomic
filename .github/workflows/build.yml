@@ -24,12 +24,12 @@ jobs:
           # !! Add your recipes here
           
           # Desktop-Main 
-          - recipes/01-desktop/main/corpsouth-kinoite-main.yml
-          - recipes/01-desktop/main/corpsouth-silverblue-main.yml
+          - recipes/desktop/main/corpsouth-kinoite-main.yml
+          - recipes/desktop/main/corpsouth-silverblue-main.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
-        uses: blue-build/github-action@v1.4
+        uses: blue-build/github-action@v1.5
         with:
           recipe: ${{ matrix.recipe }}
           cosign_private_key: ${{ secrets.SIGNING_SECRET }}
