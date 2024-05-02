@@ -10,13 +10,13 @@ Changes to and continued maintainence of this repository is on the behalf of its
 
 Use at your own risk. In fact, I recommend you go elsewhere as this repo is constantly changing anyways.
 
-# ABOUT
+## ABOUT
 
 _Inspiration: [OpenSUSE Aeon(Gnome)](https://en.opensuse.org/Portal:Aeon) and [OpenSUSE Kalpa(KDE Plasma)](https://en.opensuse.org/Portal:Kalpa)_
 
 This customization is focused on keeping the desktop as out of the way as possible while both adding and retaining useful functionality.
 
-Useful pertaining to me and me first and foremost, but also appeals to lazy workflow where tinkering isn't high on the list of priorities.
+Useful pertaining to me and me first and foremost, appealing to lazy workflow where tinkering isn't high on the list of priorities.
 
 Packages have either been removed to trim things down and reduce redundancy, or to be replaced with alternatives, such as flatpaks.
 
@@ -76,20 +76,24 @@ There's no reason to blow up your image size by adding libvirt and its associate
 
 Fedora tends to get sketchy when virtualization packages are updated, so don't be eager to layer them.
 
-# Rebasing to this image
+## Rebasing to this image
 
-### Silverblue (Main, Gnome)
-
-Unsigned:
-`rpm-ostree rebase ostree-unverified-registry:ghcr.io/corpsouth/corpsouth-silverblue-main:latest`
-
-Signed:
-`rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-silverblue-main:latest`
-
-### Kinoite (Main, KDE Plasma)
+#### Silverblue (Main, Gnome)
 
 Unsigned:
-`rpm-ostree rebase ostree-unverified-registry:ghcr.io/corpsouth/corpsouth-kinoite-main:latest`
+
+``rpm-ostree rebase ostree-unverified-registry:ghcr.io/corpsouth/corpsouth-silverblue-main:latest``
 
 Signed:
-`rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-kinoite-main:latest`
+
+``rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-silverblue-main:latest``
+
+#### Kinoite (Main, KDE Plasma)
+
+Unsigned:
+
+``rpm-ostree rebase ostree-unverified-registry:ghcr.io/corpsouth/corpsouth-kinoite-main:latest``
+
+Signed:
+
+``rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-kinoite-main:latest``
