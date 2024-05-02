@@ -6,7 +6,7 @@ modules:
   - from-file: modules/common-files.yml
   - from-file: modules/kinoite-files.yml
   - from-file: modules/common-rpm-ostree.yml
-  - from-file: modules/kinoite-rpm-ostree.yml
+  - from-file: modules/kinoite-gts-rpm-ostree.yml
   - from-file: modules/kinoite-default-flatpaks.yml
   - from-file: modules/common-bling.yml
   - from-file: modules/common-fonts.yml

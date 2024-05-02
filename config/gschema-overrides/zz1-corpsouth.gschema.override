@@ -1,5 +1,4 @@
 [org.gnome.desktop.background]
-picture-options 'stretched'
 picture-uri 'file:///usr/share/backgrounds/f40/default/f40.xml'
 picture-uri-dark 'file:///usr/share/backgrounds/f40/default/f40.xml'
 
