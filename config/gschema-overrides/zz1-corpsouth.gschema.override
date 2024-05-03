@@ -1,3 +1,8 @@
+[org.gnome.desktop.background]
+picture-options='stretched'
+picture-uri='file:///usr/share/backgrounds/corpsouth-atomic/default/asphalt.xml'
+picture-uri-dark='file:///usr/share/backgrounds/corpsouth-atomic/default/asphalt.xml'
+
 [org.gnome.desktop.interface]
 clock-show-date=true
 clock-show-seconds=true
