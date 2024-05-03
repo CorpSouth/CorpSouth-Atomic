@@ -1,3 +1,6 @@
+[org.gnome.Console]
+last-window-size=(868, 590)
+
 [org.gnome.desktop.background]
 picture-options='stretched'
 picture-uri='file:///usr/share/backgrounds/corpsouth-atomic/default/asphalt.xml'
