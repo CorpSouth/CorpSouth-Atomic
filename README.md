@@ -42,7 +42,11 @@ Desktop:
 - Morewaita-icon-theme to enhance the default Adwaita icon set
 - SauceCodePro nerd font
 - Keybindings, User Interface, and Window Management are tweaked for comfort
-- Gnome Software is adjusted for additional "safety padding"
+- Updates handling by Gnome Software is disabled
+  - Offhanded to ublue-update
+- Repo settings dialog is disabled
+  - "Safety padding"
+  - Prefer layering via remote repository, or this repository, than locally
 
 Flatpaks:
 - Adw-gtk3
