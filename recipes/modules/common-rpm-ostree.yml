@@ -5,6 +5,7 @@ install:
   - openssl
   - steam-devices
 remove:
+  - fedora-bookmarks
   - fedora-flathub-remote
   - firefox
   - firefox-langpacks
