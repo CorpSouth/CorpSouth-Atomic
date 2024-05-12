@@ -67,9 +67,6 @@ media=['Tools']
 enabled-extensions=['AlphabeticalAppGrid@stuarthayhurst', 'appindicatorsupport@rgcjonas.gmail.com', 'caffeine@patapon.info', 'gsconnect@andyholmes.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'io.gitlab.librewolf-community.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop']
 
-[org.gnome.shell.extensions.appindicator]
-icon-size='24'
-
 [org.gnome.shell.keybindings]
 switch-to-application-1=['<Alt>1']
 switch-to-application-2=['<Alt>2']
