@@ -8,7 +8,7 @@ install:
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-caffeine
   - gnome-shell-extension-gsconnect
-  - gnome-shell-extension-tailscale-gnome
+  - gnome-shell-extension-tailscale-status
   - gnome-shell-extension-user-theme
   - gnome-tweaks
   - morewaita-icon-theme
