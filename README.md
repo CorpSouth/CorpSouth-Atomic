@@ -12,7 +12,7 @@ Use at your own risk. In fact, I recommend you go elsewhere as this repo is cons
 
 ## ABOUT
 
-_Inspiration: [OpenSUSE Aeon(Gnome)](https://en.opensuse.org/Portal:Aeon) and [OpenSUSE Kalpa(KDE Plasma)](https://en.opensuse.org/Portal:Kalpa)_
+ > Inspiration: [OpenSUSE Aeon(Gnome)](https://en.opensuse.org/Portal:Aeon) and [OpenSUSE Kalpa(KDE Plasma)](https://en.opensuse.org/Portal:Kalpa)
 
 These images are focused on keeping the desktop as out of the way as possible while both adding and retaining useful functionality.
 
@@ -20,7 +20,7 @@ These images are focused on keeping the desktop as out of the way as possible wh
 
 Packages have either been removed to trim things down and reduce redundancy, or to be replaced with alternatives, such as flatpaks. Less is more.
 
-_NOTICE: "Removing" packages doesn't uninstall nor delete them from the image, rather "disables" them._
+> NOTICE: "Removing" packages doesn't uninstall nor delete them from the image, rather "disables" them.
 
 Firefox, it's dependencies, and Fedora's signature bookmarks packages are removed.
 
