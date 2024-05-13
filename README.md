@@ -12,7 +12,7 @@ Use at your own risk. In fact, I recommend you go elsewhere as this repo is cons
 
 ## ABOUT
 
- > Inspiration: [OpenSUSE Aeon(Gnome)](https://en.opensuse.org/Portal:Aeon) and [OpenSUSE Kalpa(KDE Plasma)](https://en.opensuse.org/Portal:Kalpa)
+ > Inspiration: [OpenSUSE Aeon(Gnome)](https://en.opensuse.org/Portal:Aeon)
 
 These images are focused on keeping the desktop as out of the way as possible while both adding and retaining useful functionality.
 
@@ -34,11 +34,11 @@ Distrobox configurations for general use and virtual machines (OpenSUSE Tumblewe
 
 Tailscale installed for extended networking capabilities.
 
-## Silverblue (Gnome)
+## Customizations
 
 Desktop:
 - Gnome-tour removed
-- Gnome Console (KGX) replaces gnome-terminal
+- Ptyxis (flathub), a terminal emulator for container workflow, replaces gnome-terminal
 - Nautilus-open-any-terminal to allow any terminal I choose to be compatible with Nautilus
 - Classic session is removed
   - Default Extensions are removed
@@ -64,29 +64,13 @@ Flatpaks:
 - Gnome Text Editor
 - LibreWolf
 
-## Kinoite (KDE Plasma)
-
-Desktop:
-- Plasma-welcome removed
-- Various desktop utilities replaced with flatpaks
-- KDialog for additional password prompt support
-- Hack nerd font
-
-Flatpaks:
-- Ark
-- Filelight
-- Kcalc
-- Kwalletmanager5
-- Kwrite
-- LibreWolf
-
 ## What about Virtualization?
 
 [Just run it through a rootful Distrobox container.](https://github.com/89luca89/distrobox/blob/main/docs/posts/run_libvirt_in_distrobox.md)
 
 ## Rebasing
 
-#### Silverblue (Main, Gnome)
+#### Silverblue (Main)
 
 Unsigned:
 
@@ -100,21 +84,7 @@ Signed:
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-silverblue-main:latest
 ```
 
-#### Kinoite (Main, KDE Plasma)
-
-Unsigned:
-
-```
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/corpsouth/corpsouth-kinoite-main:latest
-```
-
-Signed:
-
-```
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-kinoite-main:latest
-```
-
-#### Silverblue (Main, Grand Touring Series, Gnome)
+#### Silverblue (Main, Grand Touring Series)
 
 Unsigned:
 
@@ -126,20 +96,6 @@ Signed:
 
 ```
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-silverblue-main:latest
-```
-
-#### Kinoite (Main, Grand Touring Series, KDE Plasma)
-
-Unsigned:
-
-```
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/corpsouth/corpsouth-kinoite-main-gts:latest`
-```
-
-Signed:
-
-```
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/corpsouth/corpsouth-kinoite-main-gts:latest
 ```
 
 ## Installing Via Offline ISO
@@ -176,6 +132,6 @@ Save them as scripts to build an offline ISO, which will save you from some head
 
 ## Scope
 
-I am content with sticking to GNOME and KDE Plasma, as stated in the sources of inspiration, I just want
+I am content with sticking to GNOME, as stated in the sources of inspiration, I just want
 modern desktops with very little "extra" added or included and with fewer areas of manual intervention.
 

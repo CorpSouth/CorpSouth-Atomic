@@ -24,11 +24,9 @@ jobs:
           # !! Add your recipes here
 
           # Desktop-Main 
-          - desktop/main/corpsouth-kinoite-main.yml
           - desktop/main/corpsouth-silverblue-main.yml
 
-          # Grand Touring Support (GTS) for additional stability
-          - desktop/main/corpsouth-kinoite-main-gts.yml
+          # Grand Touring Support (GTS) for additional stability, desktop
           - desktop/main/corpsouth-silverblue-main-gts.yml
     steps:
        # the build is fully handled by the reusable github action

@@ -4,7 +4,6 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
 install:
   - adw-gtk3-theme
-  - gnome-console # Executable binary is "/usr/bin/kgx"
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-caffeine
   - gnome-shell-extension-gsconnect

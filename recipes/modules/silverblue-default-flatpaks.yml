@@ -4,6 +4,7 @@ user:
   repo-name: flathub
   repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
   install:
+    - app.devsuite.Ptyxis
     - com.mattjakeman.ExtensionManager
     - io.gitlab.librewolf-community
     - org.gnome.Calculator
