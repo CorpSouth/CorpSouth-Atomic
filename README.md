@@ -20,11 +20,19 @@ These images are focused on keeping the desktop as out of the way as possible wh
 
 Packages have either been removed to trim things down and reduce redundancy, or to be replaced with alternatives, such as flatpaks. Less is more.
 
+__NOTICE: "Removing" packages doesn't uninstall nor delete them from the image, rather "disables" them.__
+
+Firefox, it's dependencies, and Fedora's signature bookmarks packages are removed.
+
 Focus on keeping as many programs, services, and utilities on the user level rather than system-wide.
 
-Nerd Fonts for special symbols.
+Desktop-appropriate Nerd Fonts for special symbols.
+
+Steam-devices installed from rpmfusion repositories so gaming "just works" out of the box.
 
 Distrobox configurations for general use and virtual machines (OpenSUSE Tumbleweed) are included.
+
+Tailscale installed for extended networking capabilities.
 
 ## Silverblue (Gnome)
 
@@ -34,7 +42,7 @@ Desktop:
 - Nautilus-open-any-terminal to allow any terminal I choose to be compatible with Nautilus
 - Classic session is removed
   - Default Extensions are removed
-    - Appindicator, GSConnect, and User Themes replace the default extensions
+    - Alphabetal App Grid, Appindicator Support, Caffeine, GSConnect, and User Themes replace the default extensions
     - GSConnect integration with the Nautilus file manager is included
       - Nautilus-python is a hard dependency
 - Zenity for additional password prompt support
