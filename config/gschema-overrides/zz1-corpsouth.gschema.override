@@ -1,3 +1,9 @@
+[com.github.stunkymonkey.nautilus-open-any-terminal]
+flatpak='user'
+keybindings='<Ctrl><Alt>t'
+new-tab=true
+terminal='ptyxis'
+
 [org.gnome.Console]
 last-window-size=(868, 590)
 
