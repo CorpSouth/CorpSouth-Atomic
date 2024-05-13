@@ -20,7 +20,7 @@ These images are focused on keeping the desktop as out of the way as possible wh
 
 Packages have either been removed to trim things down and reduce redundancy, or to be replaced with alternatives, such as flatpaks. Less is more.
 
-__NOTICE: "Removing" packages doesn't uninstall nor delete them from the image, rather "disables" them.__
+_NOTICE: "Removing" packages doesn't uninstall nor delete them from the image, rather "disables" them._
 
 Firefox, it's dependencies, and Fedora's signature bookmarks packages are removed.
 
