@@ -16,23 +16,9 @@ Use at your own risk. In fact, I recommend you go elsewhere as this repo is cons
 
 These images are focused on keeping the desktop as out of the way as possible while both adding and retaining useful functionality.
 
-"Useful" pertaining to me first and foremost, appealing to lazy workflow where tinkering isn't high on the list of priorities.
+"Useful" pertaining to me first and foremost, providing a lazy workflow where tinkering isn't high on the list of priorities.
 
 Packages have either been removed to trim things down and reduce redundancy, or to be replaced with alternatives (such as flatpaks). Less is more.
-
-> NOTICE: "Removing" packages doesn't uninstall nor delete them from the image, rather "disables" them.
-
-Firefox, it's dependencies, and Fedora's signature bookmarks packages are removed.
-
-Focus on keeping as many programs, services, and utilities on the user level rather than system-wide.
-
-Desktop-appropriate Nerd Fonts for special symbols.
-
-Steam-devices installed from rpmfusion repositories so gaming "just works" out of the box.
-
-Distrobox configurations for general use and virtual machines (OpenSUSE Tumbleweed) are included.
-
-Tailscale installed for extended networking capabilities.
 
 ## What about Virtualization?
 
