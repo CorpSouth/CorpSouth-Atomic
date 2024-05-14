@@ -12,7 +12,7 @@ Use at your own risk. In fact, I recommend you go elsewhere as this repo is cons
 
 ## ABOUT
 
- > Inspiration: [OpenSUSE Aeon(Gnome)](https://en.opensuse.org/Portal:Aeon)
+ > Inspiration: [OpenSUSE Aeon (Gnome)](https://en.opensuse.org/Portal:Aeon)
 
 These images are focused on keeping the desktop as out of the way as possible while both adding and retaining useful functionality.
 
