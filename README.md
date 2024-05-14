@@ -38,8 +38,10 @@ Tailscale installed for extended networking capabilities.
 
 Desktop:
 - Gnome-tour removed
-- Ptyxis (flathub), a terminal emulator for container workflow, replaces gnome-terminal
+- Gnome-system-monitor removed
+- Yelp removed
 - Nautilus-open-any-terminal to allow any terminal I choose to be compatible with Nautilus
+  - ISSUE: ``error: app/org.gnome.Ptyxis/x86_64/master not installed`` despite ``app.devsuite.Ptyxis``
 - Classic session is removed
   - Default Extensions are removed
     - Alphabetal App Grid, Appindicator Support, Caffeine, GSConnect, and User Themes replace the default extensions
@@ -53,8 +55,8 @@ Desktop:
 - Updates handling by Gnome Software is disabled
   - Offhanded to ublue-update
 - Repo settings dialog is disabled
-  - "Safety padding"
-  - Prefer layering via remote repository, or this repository, than locally
+  - "Safety padding" so I don't screw anything up
+  - I edit the various recipe modules to add or remove software anyways
 
 Flatpaks:
 - Adw-gtk3
@@ -63,6 +65,8 @@ Flatpaks:
 - Gnome Calculator
 - Gnome Text Editor
 - LibreWolf
+- Mission Center
+- Ptyxis
 
 ## What about Virtualization?
 
@@ -132,6 +136,5 @@ Save them as scripts to build an offline ISO, which will save you from some head
 
 ## Scope
 
-I am content with sticking to GNOME, as stated in the sources of inspiration, I just want
-modern desktops with very little "extra" added or included and with fewer areas of manual intervention.
-
+I am content with sticking to GNOME, as stated in the sources of inspiration, I just want 
+a modern desktop with very little "extra" added or included and with fewer areas of manual intervention.
