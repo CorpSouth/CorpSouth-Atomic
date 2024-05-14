@@ -22,6 +22,8 @@ remove:
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-window-list
   # END removing default extensions
+  - gnome-system-monitor
   - gnome-terminal
   - gnome-terminal-nautilus
   - gnome-tour
+  - yelp
