@@ -26,4 +26,5 @@ remove:
   - gnome-terminal
   - gnome-terminal-nautilus
   - gnome-tour
+  - gnome-tweaks
   - yelp
