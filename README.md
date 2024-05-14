@@ -18,7 +18,7 @@ These images are focused on keeping the desktop as out of the way as possible wh
 
 "Useful" pertaining to me first and foremost, appealing to lazy workflow where tinkering isn't high on the list of priorities.
 
-Packages have either been removed to trim things down and reduce redundancy, or to be replaced with alternatives, such as flatpaks. Less is more.
+Packages have either been removed to trim things down and reduce redundancy, or to be replaced with alternatives (such as flatpaks). Less is more.
 
 > NOTICE: "Removing" packages doesn't uninstall nor delete them from the image, rather "disables" them.
 
@@ -33,40 +33,6 @@ Steam-devices installed from rpmfusion repositories so gaming "just works" out o
 Distrobox configurations for general use and virtual machines (OpenSUSE Tumbleweed) are included.
 
 Tailscale installed for extended networking capabilities.
-
-## Customizations
-
-Desktop:
-- Gnome-tour removed
-- Gnome-system-monitor removed
-- Yelp removed
-- Nautilus-open-any-terminal to allow any terminal I choose to be compatible with Nautilus
-  - ISSUE: ``error: app/org.gnome.Ptyxis/x86_64/master not installed`` despite ``app.devsuite.Ptyxis``
-- Classic session is removed
-  - Default Extensions are removed
-    - Alphabetal App Grid, Appindicator Support, Caffeine, GSConnect, and User Themes replace the default extensions
-    - GSConnect integration with the Nautilus file manager is included
-      - Nautilus-python is a hard dependency
-- Zenity for additional password prompt support
-- Adw-gtk3 for an improved uniform look
-- Morewaita-icon-theme to enhance the default Adwaita icon set
-- SauceCodePro nerd font
-- Keybindings, User Interface, and Window Management are tweaked for comfort
-- Updates handling by Gnome Software is disabled
-  - Offhanded to ublue-update
-- Repo settings dialog is disabled
-  - "Safety padding" so I don't screw anything up
-  - I edit the various recipe modules to add or remove software anyways
-
-Flatpaks:
-- Adw-gtk3
-- Adw-gtk3-dark
-- Extension Manager
-- Gnome Calculator
-- Gnome Text Editor
-- LibreWolf
-- Mission Center
-- Ptyxis
 
 ## What about Virtualization?
 
