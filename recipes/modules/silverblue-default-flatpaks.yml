@@ -5,6 +5,7 @@ user:
   repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
   install:
     - app.devsuite.Ptyxis
+    - ca.desrt.dconf-editor
     - com.mattjakeman.ExtensionManager
     - io.gitlab.librewolf-community
     - io.missioncenter.MissionCenter

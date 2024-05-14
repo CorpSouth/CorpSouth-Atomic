@@ -8,7 +8,6 @@ install:
   - gnome-shell-extension-caffeine
   - gnome-shell-extension-gsconnect
   - gnome-shell-extension-user-theme
-  - gnome-tweaks
   - morewaita-icon-theme
   - nautilus-gsconnect
   - nautilus-open-any-terminal
