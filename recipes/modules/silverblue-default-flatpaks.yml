@@ -13,6 +13,7 @@ user:
     - io.gitlab.librewolf-community
     - io.missioncenter.MissionCenter
     - org.fedoraproject.MediaWriter
+    - org.gnome.baobab
     - org.gnome.Calculator
     - org.gnome.Evince
     - org.gnome.Logs
