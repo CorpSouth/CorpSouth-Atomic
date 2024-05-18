@@ -5,7 +5,6 @@ repos:
 install:
   - adw-gtk3-theme
   - gnome-shell-extension-appindicator
-  - gnome-shell-extension-caffeine
   - gnome-shell-extension-gsconnect
   - gnome-shell-extension-user-theme
   - morewaita-icon-theme
