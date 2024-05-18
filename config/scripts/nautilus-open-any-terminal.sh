@@ -6,7 +6,7 @@ echo 'Installing make...'
 rpm-ostree install make
 echo 'Cloning nautilus-open-any-terminal source repository...'
 cd /tmp
-git clone https://github.com/KyleGospo/nautilus-open-any-terminal
+git clone https://github.com/Stunkymonkey/nautilus-open-any-terminal
 echo 'Entering repository and running make...'
 cd nautilus-open-any-terminal/
 make
