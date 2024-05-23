@@ -5,8 +5,8 @@ install:
   - libxcrypt-compat
   - openssh-askpass
   - openssl
+  - powerline
   - shellcheck
-  - silver
   - steam-devices
   - tailscale
 remove:
