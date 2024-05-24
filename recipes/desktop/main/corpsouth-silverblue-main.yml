@@ -10,6 +10,7 @@ modules:
   - from-file: modules/silverblue-default-flatpaks.yml
   - from-file: modules/common-bling.yml
   - from-file: modules/silverblue-bling.yml
+  - from-file: modules/common-script.yml
   - from-file: modules/silverblue-script.yml
   - from-file: modules/common-fonts.yml
   - from-file: modules/silverblue-fonts.yml
