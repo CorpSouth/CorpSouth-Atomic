@@ -1,1 +1,1 @@
-[[ $- = *i* ]] && source /usr/etc/liquidprompt/liquidprompt
+[[ $- = *i* ]] && source /etc/liquidprompt/liquidprompt
