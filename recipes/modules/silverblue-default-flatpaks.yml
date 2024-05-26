@@ -6,6 +6,7 @@ user:
   install:
     - app.devsuite.Ptyxis
     - ca.desrt.dconf-editor
+    - com.github.tchx84.Flatseal
     - com.mattjakeman.ExtensionManager
     - de.haeckerfelix.Fragments
     - io.github.alexkdeveloper.radio
@@ -31,4 +32,5 @@ user:
     - org.libreoffice.LibreOffice
     - org.mozilla.firefox
     - org.mozilla.Thunderbird
+    - page.codeberg.libre_menu_editor.LibreMenuEditor
     - page.kramo.Cartridges
