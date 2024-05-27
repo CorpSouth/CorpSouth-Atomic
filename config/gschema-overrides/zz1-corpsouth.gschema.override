@@ -70,7 +70,7 @@ control-center-static=['']
 media=['Tools']
 
 [org.gnome.shell]
-enabled-extensions=['AlphabeticalAppGrid@stuarthayhurst', 'appindicatorsupport@rgcjonas.gmail.com', 'containers@royg', 'gsconnect@andyholmes.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['AlphabeticalAppGrid@stuarthayhurst', 'appindicatorsupport@rgcjonas.gmail.com', 'gsconnect@andyholmes.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'app.devsuite.Ptyxis.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'org.mozilla.Thunderbird.desktop']
 
 [org.gnome.shell.keybindings]
