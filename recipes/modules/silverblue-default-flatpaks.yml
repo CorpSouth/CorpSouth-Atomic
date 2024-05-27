@@ -23,6 +23,7 @@ user:
     - org.gnome.Contacts
     - org.gnome.DejaDup
     - org.gnome.font-viewer
+    - org.gnome.Logs
     - org.gnome.Loupe
     - org.gnome.Maps
     - org.gnome.TextEditor
