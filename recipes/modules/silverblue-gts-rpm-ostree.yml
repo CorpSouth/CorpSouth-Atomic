@@ -3,11 +3,7 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/dusansimic/themes/repo/fedora-40/dusansimic-themes-fedora-40.repo
 install:
   - adw-gtk3-theme
-  - gnome-shell-extension-appindicator
-  - gnome-shell-extension-gsconnect
-  - gnome-shell-extension-user-theme
   - morewaita-icon-theme
-  - nautilus-gsconnect
   - nautilus-python
   - zenity
 remove:

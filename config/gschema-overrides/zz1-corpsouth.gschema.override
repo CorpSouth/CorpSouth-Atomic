@@ -59,7 +59,7 @@ switch-to-workspace-right=['<Super>bracketright']
 
 [org.gnome.desktop.wm.preferences]
 button-layout='appmenu:minimize,maximize,close'
-num-workspaces=5
+num-workspaces=6
 
 [org.gnome.mutter]
 center-new-windows=true
@@ -70,7 +70,6 @@ control-center-static=['']
 media=['Tools']
 
 [org.gnome.shell]
-enabled-extensions=['AlphabeticalAppGrid@stuarthayhurst', 'appindicatorsupport@rgcjonas.gmail.com', 'gsconnect@andyholmes.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'app.devsuite.Ptyxis.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'org.mozilla.Thunderbird.desktop']
 
 [org.gnome.shell.keybindings]
