@@ -1,13 +1,8 @@
 type: rpm-ostree
-repos:
-  - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 install:
   - libxcrypt-compat
   - openssh-askpass
-  - openssl
-  - shellcheck
   - steam-devices
-  - tailscale
 remove:
   - fedora-bookmarks
   - fedora-flathub-remote

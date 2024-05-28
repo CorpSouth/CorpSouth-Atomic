@@ -1,11 +1,4 @@
 type: systemd
-system:
-  disabled:
-    - systemd-oomd.service
-  enabled:
-    - tailscaled.service
-  masked:
-    - systemd-oomd.service
 user:
   enabled:
     - podman.service
