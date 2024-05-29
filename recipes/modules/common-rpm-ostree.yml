@@ -1,6 +1,5 @@
 type: rpm-ostree
 install:
-  - libxcrypt-compat
   - openssh-askpass
   - steam-devices
 remove:
