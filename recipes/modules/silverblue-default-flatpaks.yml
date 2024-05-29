@@ -22,6 +22,7 @@ user:
     - org.gnome.Connections
     - org.gnome.Contacts
     - org.gnome.DejaDup
+    - org.gnome.Evince
     - org.gnome.font-viewer
     - org.gnome.Logs
     - org.gnome.Loupe
