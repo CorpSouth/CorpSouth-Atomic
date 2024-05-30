@@ -1,12 +1,7 @@
 type: rpm-ostree
 install:
   - openssh-askpass
-  - steam-devices
 remove:
-  - fedora-bookmarks
-  - fedora-flathub-remote
-  - firefox
-  - firefox-langpacks
   - htop
   - nvtop
   - toolbox

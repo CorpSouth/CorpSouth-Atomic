@@ -5,8 +5,13 @@ install:
   - adw-gtk3-theme
   - morewaita-icon-theme
   - nautilus-python
+  - steam-devices
   - zenity
 remove:
+  - fedora-bookmarks
+  - fedora-flathub-remote
+  - firefox
+  - firefox-langpacks
   - gnome-classic-session
   - gnome-classic-session-xsession
   # BEGIN removing default extensions
