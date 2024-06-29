@@ -1,0 +1,12 @@
+type: rpm-ostree
+install:
+  - openssh-askpass
+remove:
+  - htop
+  - nvtop
+  - toolbox
+  - vim-common
+  - vim-data
+  - vim-enhanced
+  - vim-filesystem
+  - vim-minimal

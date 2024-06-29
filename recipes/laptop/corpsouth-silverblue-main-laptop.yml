@@ -1,0 +1,16 @@
+name: corpsouth-silverblue-main-laptop
+description: CorpSouth's Opinionated Atomic Silverblue Desktop. Built with Blue-Build.
+base-image: ghcr.io/ublue-os/silverblue-main
+image-version: latest
+modules:
+  - from-file: modules/common-files.yml
+  - from-file: modules/silverblue-files.yml
+  - from-file: modules/common-rpm-ostree.yml
+  - from-file: modules/silverblue-rpm-ostree.yml
+  - from-file: modules/silverblue-default-flatpaks.yml
+  - from-file: modules/common-bling.yml
+  - from-file: modules/common-bling-laptop.yml
+  - from-file: modules/silverblue-bling.yml
+  - from-file: modules/silverblue-gschema-overrides.yml
+  - from-file: modules/common-systemd.yml
+  - from-file: modules/common-signing.yml

@@ -1,0 +1,5 @@
+type: systemd
+user:
+  enabled:
+    - podman.service
+    - podman.socket
