@@ -1,0 +1,9 @@
+############################################################
+#Specialized versions of existing fonts with unique symbols#
+############################################################
+
+type: fonts
+fonts:
+  nerd-fonts:
+    - SourceCodePro
+    - NerdFontsSymbolsOnly

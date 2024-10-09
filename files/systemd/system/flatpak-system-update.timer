@@ -1,0 +1,14 @@
+########################################################################
+#Having to add this unit manually since it's missing from ublue-update.#
+########################################################################
+
+
+[Unit]
+Description=Flatpak Automatic Update Trigger
+Documentation=man:flatpak(1)
+
+[Timer]
+RandomizedDelaySec=10m
+OnBootSec=2m
+OnCalendar=*-*-* 4:00:00
+Persistent=true

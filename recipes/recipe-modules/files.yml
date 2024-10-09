@@ -1,0 +1,11 @@
+#############################################################
+#Files that will populate their specified target directories#
+########################################################################
+#NOTICE: It is no longer recommended to place additional configurations#
+#in the /usr/etc directory, simply add them to /etc#####################
+####################################################
+
+type: files
+files:
+  - source: system
+    destination: /

@@ -1,0 +1,7 @@
+############################################################
+#User-defined "defaults" for gtk-based desktop environments#
+############################################################
+
+type: gschema-overrides
+include:
+  - zz1-corpsouth-atomic.gschema.override

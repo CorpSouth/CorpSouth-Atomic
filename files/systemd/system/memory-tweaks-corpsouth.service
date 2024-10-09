@@ -1,0 +1,11 @@
+[Unit]
+Description=Dynamic memory tweaks for CorpSouth-Atomic
+Before=systemd-user-sessions.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/memory-tweaks-corpsouth
+
+[Install]
+WantedBy=multi-user.target

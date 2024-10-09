@@ -1,0 +1,8 @@
+#####################################################
+#Additional goodies courtesy of the ublue-os project#
+#####################################################
+
+type: bling
+install:
+    - dconf-update-service
+    - ublue-update

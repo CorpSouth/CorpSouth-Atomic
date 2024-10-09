@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+# Imported from Bluefin: https://github.com/ublue-os/bluefin/blob/main/system_files/silverblue/usr/bin/xdg-terminal-exec
+# ISSUE: org.gnome.Ptyxis is now app.devsuite.Ptyxis
+
+if command -v /usr/bin/ptyxis > /dev/null; then
+  if [[ -z "$@" ]]; then
+    /usr/bin/ptyxis --new-window
+  else
+    /usr/bin/ptyxis -- "$@"
+  fi
+elif grep '^app\.devsuite\.Ptyxis$' <<< $(/usr/bin/flatpak list --app --columns=application); then
+  if [[ -z "$@" ]]; then
+    /usr/bin/flatpak run app.devsuite.Ptyxis --new-window
+  else
+    /usr/bin/flatpak run app.devsuite.Ptyxis -- "$@"
+  fi
+else
+  /usr/bin/gnome-terminal -- "$@"
+fi

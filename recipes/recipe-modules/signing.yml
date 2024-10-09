@@ -1,0 +1,7 @@
+#####################################################################
+#Install the required signing policies for cosign image verification#
+#############################################################################
+#Extremely basic but I just wanted to put it in its own file for consistency#
+#############################################################################
+
+type: signing

@@ -1,0 +1,15 @@
+[com/github/stunkymonkey/nautilus-open-any-terminal]
+terminal='ptyxis'
+keybindings=''
+new-tab=true
+flatpak='off'
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+help=['']
+screensaver=['<Alt><Control>Pause']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='xdg-terminal-exec'
+name="Launch Terminal"

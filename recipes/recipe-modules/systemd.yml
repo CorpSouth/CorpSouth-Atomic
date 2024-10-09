@@ -1,0 +1,13 @@
+########################################################################
+#Manage whatever systemd service is either enabled, disabled, or masked#
+########################################################################
+
+type: systemd
+system:
+  enabled:
+    - dirty-centisecs.service
+    - memory-tweaks-corpsouth.service
+user:
+  enabled:
+    - podman.service
+    - podman.socket

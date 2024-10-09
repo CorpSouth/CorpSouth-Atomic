@@ -1,0 +1,80 @@
+####################################
+#Disallow overriding these settings#
+####################################
+
+######################################################################
+#Most eye candy settings are locked down to help reduce distraction.################
+#This includes the light and dark desktop backgrounds and official Fedora branding.#
+#Some settings are kept unlocked for accessibility reasons.#########################
+###########################################################
+
+############
+#Background#
+############
+
+/org/gnome/desktop/background/color-shading-type
+/org/gnome/desktop/background/picture-opacity
+/org/gnome/desktop/background/picture-options
+/org/gnome/desktop/background/picture-uri
+/org/gnome/desktop/background/picture-uri-dark
+/org/gnome/desktop/background/primary-color
+/org/gnome/desktop/background/secondary-color
+/org/gnome/desktop/background/show-desktop-icons
+
+######################
+#Default Applications#
+######################
+
+/org/gnome/desktop/default-applications/terminal/exec
+/org/gnome/desktop/default-applications/terminal/exec-arg
+
+############
+#Extensions#
+############
+
+/org/gnome/shell/allow-extension-installation
+/org/gnome/shell/disable-extension-version-validation
+/org/gnome/shell/disable-user-extensions
+/org/gnome/shell/enabled-extensions
+
+################
+#Gnome Software#
+################
+
+/org/gnome/software/allow-updates
+/org/gnome/software/download-updates
+/org/gnome/software/download-updates-notify
+/org/gnome/software/enable-repos-dialog
+/org/gnome/software/packaging-format-preference
+
+##############
+#Login Screen#
+##############
+
+/org/gnome/login-screen/fallback-logo
+/org/gnome/login-screen/logo
+
+############
+#Media Keys#
+############
+
+/org/gnome/settings-daemon/plugins/media-keys/help
+
+#############
+#Screensaver#
+#############
+
+/org/gnome/desktop/screensaver/color-shading-type
+/org/gnome/desktop/screensaver/picture-opacity
+/org/gnome/desktop/screensaver/picture-options
+/org/gnome/desktop/screensaver/picture-uri
+/org/gnome/desktop/screensaver/primary-color
+/org/gnome/desktop/screensaver/secondary-color
+
+#########
+#Theming#
+#########
+
+/org/gnome/desktop/interface/cursor-theme
+/org/gnome/desktop/interface/gtk-theme
+/org/gnome/desktop/interface/icon-theme

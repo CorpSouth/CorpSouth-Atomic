@@ -1,0 +1,13 @@
+####################################################
+#Install the following flatpaks on a per-user basis#
+####################################################
+type: default-flatpaks
+notify: true
+user:
+  repo-name: Flathub
+  install:
+    - org.gnome.Calculator
+    - org.gnome.TextEditor
+    - org.gtk.Gtk3theme.adw-gtk3
+    - org.gtk.Gtk3theme.adw-gtk3-dark
+    - org.mozilla.firefox

@@ -1,0 +1,12 @@
+#####################################################
+#Run custom scripts and shell snippets on build time#
+#####################################################
+
+type: script
+scripts:
+  - install-liquidprompt.sh
+  - install-pfetch.sh
+  - morewaita.sh
+  - bootc-update-bootloader.sh
+  - initramfs.sh
+  - update-backgrounds.sh

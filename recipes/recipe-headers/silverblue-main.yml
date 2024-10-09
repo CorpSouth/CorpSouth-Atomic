@@ -1,0 +1,23 @@
+##########################################################################
+#If you renamed the default recipe.yml, make sure to edit the build file!#
+##########################################################################
+
+name: corpsouth-atomic
+description: Trimmed and Adjusted Silverblue (GNOME) Desktop
+base-image: ghcr.io/ublue-os/silverblue-main
+image-version: latest
+
+############################################################################
+#Each module is split into their own files and processed in the order given#
+############################################################################
+
+modules:
+    - from-file: recipe-modules/files.yml
+    - from-file: recipe-modules/default-flatpaks.yml
+    - from-file: recipe-modules/rpm-ostree.yml
+    - from-file: recipe-modules/bling.yml
+    - from-file: recipe-modules/fonts.yml
+    - from-file: recipe-modules/script.yml
+    - from-file: recipe-modules/gschema-overrides.yml
+    - from-file: recipe-modules/systemd.yml
+    - from-file: recipe-modules/signing.yml
